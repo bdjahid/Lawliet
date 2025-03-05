@@ -198,6 +198,59 @@ nav li:hover{
  /* banner end here */ 
 
 
+  /* service starts here  */
+
+ #blog-about {
+    background-color: #4c4c4c;
+  }
+  .card-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card {
+    flex: 1;
+    border-radius: 0.6rem;
+    background-color: #f3f0f0;
+    padding: 3rem 1rem;
+    margin: 2rem;
+    /* display: flex;
+    flex-direction: column; */
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  .card-header {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    /* text-align: center; */
+  }
+  .card-description {
+    padding: 0.4rem 0;
+    text-align: justify;
+    font-size: 1.6rem;
+    margin-bottom: 5rem;
+  }
+  .bg{
+    background-color: #F2FCFF;
+    
+  }
+.width{
+     width: 550px; 
+    /* flex-basis: 50%; */
+    margin: 1rem; 
+}
+  .service-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  /* service ends here  */
  /* Complex Questions section starts here  */
  .complex-section{
    font-weight: 700;
