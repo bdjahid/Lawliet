@@ -50,12 +50,13 @@ body{
 
   .btn {
     background-color: #0F6E8C;
+    color: white;
     border: none;
     border-radius: 0.6rem;
     box-shadow: 0.1rem 0.1rem 0.1rem #222;
     cursor: pointer;
     font-size: 1.6rem;
-    padding: 1rem 0;
+    padding: 2rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
   }
@@ -112,3 +113,117 @@ nav li:hover{
     cursor: pointer;
 }
 /* header end here */
+
+
+
+/* banner start here */
+
+#blog-banner-section {
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+  }
+
+
+  .banner-heading {
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 108px;
+    letter-spacing: 2%;
+    margin-bottom: 2.5rem; 
+  }
+.banner-description{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 29px;
+    margin-bottom: 29px;
+}
+.size{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    color: #8b8c8c;
+}
+.alink{
+   width: 84px; 
+   height: 24px;
+   top: -0.02px;
+   left: -0.02px;
+   color: #FF385c;
+   
+}
+.blink{
+   width: 84px; 
+   height: 24px;
+   top: -0.02px;
+   margin-left: 50px;
+   color: #33475B;
+   
+}
+.clink{
+    width: 85px;
+    height: 18px;
+    top: 4.05px;
+    left: 33px;
+    color:#737373;
+}
+.dlink{
+    width: 85px;
+    height: 18px;
+    top: 4.05px;
+    left: 33px;
+    margin-left: 40px;
+    color:#4285F4;
+}
+ #blog-banner-section article{
+    flex-basis: 50%;
+    margin: 1rem; 
+} 
+ #blog-banner-section aside{
+    flex-basis: 50%;
+    text-align: center;
+} */
+
+.banner-img {
+    width: 550px;
+    height: 773px;
+  }
+ /* banner end here */ 
+
+
+ /* Complex Questions section starts here  */
+ .complex-section{
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 64px;
+   letter-spacing: 0.5px;
+   color: #2D2F30;
+ }
+ .text{
+     margin-left: 65px; 
+ }
+ .ptext{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+ }
+ .image{
+    width: 420px;
+    height: 260px;
+    top: 2715px;
+    left: 1008px;
+    border-bottom-left-radius: 20px;
+ }
+ #complex-section{
+    display: flex;
+ }
+ /* Complex Questions section ends here  */
