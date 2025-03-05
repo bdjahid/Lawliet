@@ -1,0 +1,114 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+}
+
+html{
+    background-color: #fafafa;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif; 
+}
+
+body{
+    background-color: #fff;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-white {
+    color: #fff;
+  }
+.section-heading {
+    font-size: 8rem;
+    text-align: center;
+    font-family: "Italianno", cursive; 
+  }
+  .section-center {
+    padding: 5rem 1rem;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .btn {
+    background-color: #0F6E8C;
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+
+/* header start here */
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+div > h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.5px;  
+}
+div > img{
+    width: 30px;
+    height: 30px;
+    top: 43px;
+    left: 186px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f8f8;
+    /* color: #302d2d; */
+    padding: 2rem 1rem;
+    position: sticky;
+    z-index: 10;
+    min-height: 5vh;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 1rem;
+    transition: all 0.4s;
+}
+nav li:last-child{
+    margin-right: 0;
+}
+nav li:hover{
+    background-color: rgb(240, 213, 168);
+    border-radius: 0.6rem;
+}
+.nav-link{
+    font-size: 1rem;
+    color: rgb(29, 27, 27);
+    cursor: pointer;
+}
+/* header end here */
