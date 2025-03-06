@@ -86,16 +86,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f8f8;
-    /* color: #302d2d; */
+    background-color: #fafcfc;
     padding: 2rem 1rem;
     position: sticky;
     z-index: 10;
     min-height: 5vh;
+    width: 1100px;
+    margin: 0 auto;
 }
 
 nav li {
-    display: inline-block;
+    display: inline-block; 
     margin-right: 2rem;
     padding: 1rem;
     transition: all 0.4s;
@@ -238,7 +239,7 @@ nav li:hover{
      width: 550px; 
     margin: 1rem; 
 }
-  .service-section{
+.service-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,8 +277,13 @@ nav li:hover{
  }
  #complex-section{
     display: flex;
+    width: 100%;
+    margin: 0 auto;
+    gap: 50px;
  }
+
  /* Complex Questions section ends here  */
+
 
  /* client section starts */
 
@@ -336,9 +342,6 @@ nav li:hover{
  /* count section ends */
 
  /* footer starts here  */
- .margin-top{
-  margin-bottom: 0px;
- }
  .footer-sec {
   padding: 50px;
   display: flex;
@@ -357,14 +360,13 @@ nav li:hover{
   padding-left: 7px;
   padding-bottom: 10px;
 }
-
-.logo {
-  font-size: 20px;
-  padding-left: 7px;
-  padding-bottom: 20px;
+.color-bg{
+  background-color: #05546D;
 }
 .footer {
-  background-color: #05546D;
+ 
+  width: 1100px;
+  margin: 0 auto;
   padding: 1rem;
   min-height: 5vh;
   display: flex;
@@ -379,3 +381,103 @@ nav li:hover{
   font-size: 2.5rem;
 }
 /* footer ends here  */
+
+
+/* responsive start here */
+@media(max-width:992px){
+  #blog-banner-section {
+     flex-direction: column;
+ }  
+ .service-section{
+  flex-direction: column;
+  width: 100%;
+}
+}
+@media(max-width:768px){
+html{
+ font-size: 55.5%;
+}
+
+header{
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  background-color: #fafcfc;
+  padding: 2rem 1rem;
+ }
+ .service-section{
+  flex-direction: column;
+  width: 100%;
+}
+.complex-section {
+ font-size: 30px;
+}
+.width{
+width: 100%;
+padding: 0 2rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  width: 90%;
+}
+}
+@media(max-width:600px){
+ html{
+     font-size: 48.5%;
+ }
+header{
+ flex-direction: column;
+ width: 100%;
+ display: flex;
+ align-items: flex-start;
+ background-color: #fafcfc;
+ padding: 2rem 1rem;
+}
+nav li {
+  display: block;
+}
+.service-section{
+  flex-direction: column;
+  width: 100%;
+}
+.complex-section {
+ font-size: 30px;
+}
+.width{
+width: 100%;
+padding: 0 2rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  width: 90%;
+}
+#count{
+width: 90%;
+margin: 0 auto;
+}
+.border{
+  border-left: 0px;
+}
+.header-content{
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+#complex-section{
+ flex-direction: column;
+}
+.image{
+  width: 100%;
+  height: 100%;  
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+}
+@media(max-width:400px){
+
+}
+
+/* responsive end here */
